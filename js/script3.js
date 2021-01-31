@@ -15,3 +15,9 @@ const images = [
     alt: 'Group of Horses Running',
   },
 ];
+
+const createGalery = document.getElementById('images');
+
+const createList = product => {
+  const item = document.createElement('li');
+}
